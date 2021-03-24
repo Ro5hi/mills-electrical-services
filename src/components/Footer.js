@@ -5,5 +5,7 @@ const Footer = () => {
                 Mills Electrical Services 2021
             </p>
         </div>
-    )
-}
+    );
+};
+
+export default Footer;
