@@ -2,16 +2,14 @@
 
 const Nav = () => {
 
-    const [ scroll, setScroll ] = useState();
+    // const [ scroll, setScroll ] = useState();
 
     return (
-        <div className="">
-            <div className="">
-                <div className="">
-                    <button className="">Home</button>
-                    <button className="">About</button>
-                    <button className="">Contact</button>
-                </div>
+        <div className="bg-blue-900 flex justify-around p-10 h-12">
+            <div className="text-white tracking-wide space-x-24 text-2xl">
+                <button className="">HOME</button>
+                <button className="">ABOUT</button>
+                <button className="">CONTACT</button>
             </div>
         </div>
     )
