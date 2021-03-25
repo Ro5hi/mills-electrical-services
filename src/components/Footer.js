@@ -1,9 +1,11 @@
 const Footer = () => {
     return (
-        <div className="bg-blue-900 justify-center grid">
-            <p class="tracking-widest text-s text-white">
-                Mills Electrical Services 2021
-            </p>
+        <div className="bg-blue-900 ">
+            <div className="inset-x-0 bottom-0 p-2">
+                <p class="tracking-widest text-center text-lg text-white">
+                    Mills Electrical Services 2021
+                </p>
+            </div>
         </div>
     );
 };

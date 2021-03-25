@@ -1,5 +1,5 @@
 import Nav from './Nav'
-import Logo from './Logo'
+import Hero from './Hero'
 import About from './About'
 import Motto from './Motto'
 import Contact from './Contact'
@@ -8,9 +8,9 @@ import Footer from './Footer'
 const Home = () => {
     return (
         <div className="justify-center justify-items-center">
-            <div className="py-10">
+            <div className="flex flex-col">
                 <Nav />
-                    <Logo />
+                    <Hero />
                         <About />
                         <Motto />
                     <Contact />
