@@ -5,13 +5,17 @@ import './styles.css'
 function App() {
 
   const Home = React.lazy(() => import('./components/Home'))
-
+  const About = React.lazy(() => import('./components/About'))
+  const Contact = React.lazy(() => import('./components/Contact'))
+  
   return (
     <div className="">
       <Suspense fallback={""}>
       <BrowserRouter>
         <Switch>
           <Route component={Home} path='/' exact />
+          <Route component={About} path='/about' exact />
+          <Route component={Contact} path='/contact' exact />
         </Switch>
       </BrowserRouter>
       </Suspense>
