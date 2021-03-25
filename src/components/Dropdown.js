@@ -19,3 +19,5 @@ const Dropdown = ({open, setOpen }) => {
         </div>
     )
 }
+
+export default Dropdown;
