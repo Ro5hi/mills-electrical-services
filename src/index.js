@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Switch } from 'react-router-dom'
 import './styles.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -8,11 +8,9 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Route>
-        <Switch>
-          <App />
-        </Switch>
-      </Route>
+      <Switch>
+        <App />
+      </Switch>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
