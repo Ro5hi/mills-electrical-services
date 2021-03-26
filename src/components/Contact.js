@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <div className="container mx-auto inset-24 p-5 pt-16 pb-50 h-60 w-50">
+        <div className="container mx-auto inset-24 p-5 pt-16 -pb-50 h-auto" id="contact">
             <p class="text-4xl italic align-middle text-center">
                 Services are priced at reasonable rates, contact for an appointment today!
             </p>

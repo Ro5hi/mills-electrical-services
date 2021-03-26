@@ -31,7 +31,7 @@ const Home = () => {
 
 
     return (
-        <div className="justify-center justify-items-center">
+        <div className="justify-center justify-items-center" id="home">
             <div className="flex flex-col">
                 <Nav trigger={trigger} />
                 <Dropdown open={open} trigger={trigger} />
