@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 const Nav = ({ trigger }) => {
 
     return (
-        <div className="bg-blue-900 w-full">
+        <div className="bg-blue-900 w-screen">
             <nav className="flex justify-between items-center h-16 bg-blue-900 text-white
             relative font-mono" role="navigation">
                 <Link to="/" className="pl-8">
