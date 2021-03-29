@@ -8,7 +8,7 @@ const About = () => {
             <br /><br />
             The Mills Electrical Services is a licensed and bonded business located at Muncie, Indiana.
             </p>
-            <div className="object-scale-down float-none">
+            <div className="object-scale-down object-bottom">
                 <img src="http://thebigphotos.com/wp-content/uploads/2018/07/muncie-indiana.jpg" alt="muncie"></img>
             </div>
         </div>
