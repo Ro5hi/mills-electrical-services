@@ -5,7 +5,7 @@ const Nav = ({ trigger }) => {
     return (
         <div className="bg-blue-900 w-full">
             <nav className="flex justify-between items-center h-16 bg-blue-900 text-white
-            relative shadow-sm font-mono" role="navigation">
+            relative font-mono" role="navigation">
                 <Link to="/" className="pl-8">
                     MILLS ELECTRICAL SERVICES
                 </Link>

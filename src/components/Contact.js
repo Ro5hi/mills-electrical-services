@@ -6,7 +6,7 @@ const Contact = () => {
             </p>
             <br/>
             <div className="">
-                <p class="text-4xl text-center">
+                <p class="text-4xl text-center pt-12 pb-24">
                     <strong>
                         (765) 215-7300
                     </strong>
