@@ -1,8 +1,25 @@
-import { render, screen } from '@testing-library/react';
+import React from 'react';
 import App from './App';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import { shallow, mount } from 'enzyme';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe("Renders components", () => {
+  it("renders App component without crashing", () => {
+    shallow(<App />);
+  });
+  it("renders App component with children components", () => {
+    const wrapper = shallow(<App />);
+    const home = (<Home />);
+    const about = (<About />);
+    const contact = (<Contact />);
+
+    expect(wrapper.contains(home, about, contact)).toEqual(true);
+  });
+  it("renders navigation bar", () => {
+    const wrapper = mount(<Nav />);
+    const nav = wrapper.find("#about").text();
+    expect(nav).toEqual("About");
+  })
+})
