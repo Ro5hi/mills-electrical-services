@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 const Dropdown = ({open, trigger }) => {
     return (
         <div className={open ? 
-            "grid grid-rows-4 text-center text-white items-center bg-blue-800"
+            "grid grid-rows-4 w-screen text-center text-white items-center bg-blue-800"
             : "hidden" 
         } onClick={trigger} >
             <Link smooth to="#home" className="p-4">
