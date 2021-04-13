@@ -5,7 +5,7 @@ const Nav = ({ trigger }) => {
 
     return (
         <div className="bg-blue-900 w-screen">
-            <nav className="flex justify-between items-center h-16 bg-blue-900 text-white
+            <nav className="flex fixed justify-between items-center h-16 bg-blue-900 text-white
             relative font-mono" role="navigation">
                 <Link to="/" className="pl-8">
                     MILLS ELECTRICAL SERVICES
@@ -24,13 +24,13 @@ const Nav = ({ trigger }) => {
                 </svg>
                 </div>
                 <div className="pr-8 md:block hidden">
-                    <Link smooth to="#" className="p-4">
+                    <Link smooth to="#" className="p-4 hover:bg-gray-500 px-1 py-1">
                         HOME
                     </Link>
-                    <Link smooth to="#about" className="p-4">
+                    <Link smooth to="#about" className="p-4 hover:bg-gray-500 px-1 py-1">
                         ABOUT
                     </Link>
-                    <Link smooth to="#contact" className="p-4">
+                    <Link smooth to="#contact" className="p-4 hover:bg-gray-500 px-1 py-1">
                         CONTACT
                     </Link>
                 </div>

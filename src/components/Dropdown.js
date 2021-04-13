@@ -7,13 +7,13 @@ const Dropdown = ({open, trigger }) => {
             "grid grid-rows-4 w-screen text-center text-white items-center bg-blue-800"
             : "hidden" 
         } onClick={trigger} >
-            <Link smooth to="#home" className="p-4">
+            <Link smooth to="#home" className="p-4 hover:bg-gray-500 px-1 py-1">
                 HOME
             </Link>
-            <Link smooth="#about" className="p-4">
+            <Link smooth="#about" className="p-4 hover:bg-gray-500 px-1 py-1">
                 ABOUT
             </Link>
-            <Link smooth="#contact" className="p-4">
+            <Link smooth="#contact" className="p-4 hover:bg-gray-500 px-1 py-1">
                 CONTACT
             </Link>
         </div>
