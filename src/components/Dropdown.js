@@ -10,10 +10,10 @@ const Dropdown = ({open, trigger }) => {
             <Link smooth to="#home" className="p-4 hover:bg-gray-500 px-1 py-1">
                 HOME
             </Link>
-            <Link smooth="#about" className="p-4 hover:bg-gray-500 px-1 py-1">
+            <Link smooth to="#about" className="p-4 hover:bg-gray-500 px-1 py-1">
                 ABOUT
             </Link>
-            <Link smooth="#contact" className="p-4 hover:bg-gray-500 px-1 py-1">
+            <Link smooth to="#contact" className="p-4 hover:bg-gray-500 px-1 py-1">
                 CONTACT
             </Link>
         </div>
