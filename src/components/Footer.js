@@ -8,7 +8,7 @@ const Footer = () => {
             </div>
             <>
                 <p class="tracking-widest text-white text-center">
-                    <h6>DESIGN & BUILD: <a href="https://shirlen-d.netlify.app/">LEN D.</a> </h6>
+                    <h6>DESIGN & BUILD: <a href="https://lendeta.live/">LEN</a> </h6>
                 </p>
             </>
         </div>
