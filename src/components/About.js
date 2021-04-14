@@ -8,7 +8,7 @@ const About = () => {
                 Committed to giving high quality results for homeowners and commercial businesses. Highly skilled in
                 troubleshooting problems, installation of new equipment, lighting upgrades, and many more!
                 <br /><br />
-                The Mills Electrical Services is a licensed and bonded business located at Muncie, Indiana.
+                The Mills Electric Service is a licensed and bonded business located at Muncie, Indiana.
                 </p>
                 <img class="flex float-right align-top object-scale-down pb-40 justify-center lg:pl-12 lg:pr-12 xs:object-contain md:object-contain lg:object-scale-down" src="https://visitindiana.com/adportal/Content/FileUploads/55098/Muncie.jpg" alt="muncie"></img>
             </div>

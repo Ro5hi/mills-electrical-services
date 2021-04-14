@@ -3,7 +3,7 @@ const Footer = () => {
         <div className="bg-blue-900 w-screen">
             <div className="justify-center items-center pt-2 h-16">
                 <p class="tracking-widest text-center text-lg text-white">
-                    MILLS ELECTRICAL SERVICES © 2021
+                    MILLS ELECTRIC SERVICE © 2021
                 </p>
             </div>
             <>

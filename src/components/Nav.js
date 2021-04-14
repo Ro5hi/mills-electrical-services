@@ -8,7 +8,7 @@ const Nav = ({ trigger }) => {
             <nav className="flex fixed justify-between items-center h-16 bg-blue-900 text-white
             relative font-mono" role="navigation">
                 <Link to="/" className="pl-8">
-                    MILLS ELECTRICAL SERVICES
+                    MILLS ELECTRIC SERVICE
                 </Link>
                 <div className="px-4 cursor-pointer md:hidden" onClick={trigger}>
                 <svg 
