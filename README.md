@@ -8,7 +8,7 @@ An official website created for Samuel Mills services based at Muncie, Indiana.
 - Smooth Scroll
 - TailwindCSS
 
-Deployed using Netlify.
+Deployed using Netlify. Domain bought with Name.
 
 # Tested with
 
@@ -17,4 +17,4 @@ Deployed using Netlify.
 
 # View site here:
 
-[Mills](https://mills-electrical.netlify.app/)
+[Mills](https://mills-electric-service.com/)
