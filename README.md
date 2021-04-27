@@ -14,6 +14,14 @@ Deployed using Netlify. Domain bought with Name.
 
 - Enzyme
 - Jest
+- LightHouse
+
+# View locally
+
+- Fork the repository
+- Run the file on localhost.
+
+`npm start` 
 
 # View site here:
 
